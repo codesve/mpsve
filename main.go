@@ -24,7 +24,7 @@ func main() {
     config.Mux.HandleFunc(weixin.MsgTypeEventClick, mp.MenuClickHandler)// 注册菜单事件的处理函数
 
     //创建菜单
-    //mp.PostMenu()
+    // mp.PostMenu()
 
     /*
         给微信调的API
